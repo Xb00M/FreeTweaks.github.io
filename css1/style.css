@@ -1,0 +1,141 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+header{
+	background: #00795f;
+	width: 100%;
+	padding: 15px 0;
+	color: #fff;
+	text-align: center;
+	font-size: 28px;
+}
+
+nav ul{
+	background-color: #000;
+	overflow: hidden;
+	color: #fff;
+	padding-right: 260px;
+	text-align: center;
+	margin-top: -18px;
+	transition: max-height 0.5s;
+}
+
+nav ul li{
+	display: inline-block;
+	padding: 20px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: inherit;
+}
+
+.menu-icon{
+	width: 100%;
+	background: #000;
+	text-align: left;
+	box-sizing: border-box;
+	padding: 15px 10px;
+	cursor: pointer;
+	color: #fff;
+	display: none;
+	text-align: right;
+}
+
+@media (max-width: 580px){
+	nav ul{
+		max-height: 0px;
+	}
+
+	.showing{
+		max-height: 20em;
+	}
+
+	nav ul li{
+		box-sizing: border-box;
+		width: 100%;
+		padding: 15px;
+		text-align: left;
+	}
+
+	.menu-icon{
+		display: block;
+	}
+}
+.main{
+        		width: 100%;
+        	}
+        	.search{
+        		margin: 0;
+        		padding: 5px 10px;
+        		font-family: arial,helvetica,sans-serif;
+        		font-size: 16px;
+        		border: 1px solid #000;
+        		border-right: 0;
+        		border-top-left-radius: 5px 5px;
+        		border-bottom-left-radius: 5px 5px;
+        		font-style: italic;
+        		height: 20px;
+        	}
+        	.button{
+        		padding: 5px 5px;
+        		font-family: arial,helvetica,sans-serif;
+        		font-size: 16px;
+        		text-shadow: 0 0 1px #000;
+        		cursor: pointer;
+        		text-align: center;
+        		color: #fff;
+        		border-right: 0;
+        		background: linear-gradient(#000,#000);
+        		border-top-right-radius: 5px 5px;
+        		border-bottom-right-radius: 5px 5px;
+        		position: absolute;
+        		height: 32px;
+        		border: 1px solid #000;
+        	}
+        	.button:hover{
+        		background: linear-gradient(#ff0000,#ff0000);
+        	}
+        	.search:focus,.button:focus{
+        		outline: none;
+        	}
+        	#search-box{
+        		text-align: center;
+        		margin-top: -65px;
+        		margin-left: 1550px;
+        	}
+
+#logo {
+	margin: 20px;
+	float: left;
+	width: 20px;
+	height: 50px;
+	background: url(logo‬.png) no-repeat center;
+	display: block;
+}
+.navbar-brand{
+	float: left;
+	height: 32px;
+	padding: 15px 15px;
+	font-size: 18px;
+	line-height: 20px;
+	background: #000;
+	margin-top: 1px;
+}
+.navbar-brand>img {
+	display: block;
+}
+img {
+	vertical-align: middle;
+	background: none;
+}
+h2{
+	width: 100%;
+	padding: 15px 0;
+	color: #fff;
+	text-align: center;
+	font-size: 40px;
+}

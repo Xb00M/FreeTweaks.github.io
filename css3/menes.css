@@ -1,0 +1,311 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+html{
+  background-size: cover;
+  height:100%;
+  background: rgb(30,30,40);
+}
+
+#feedback-page{
+  text-align:center;
+}
+
+#form-main{
+  width:100%;
+  float:left;
+  padding-top:0px;
+}
+
+#form-div {
+  background-color:rgba(72,72,72,0.4);
+  padding-left:35px;
+  padding-right:35px;
+  padding-top:35px;
+  padding-bottom:50px;
+  width: 450px;
+  float: left;
+  left: 50%;
+  position: absolute;
+  margin-top:30px;
+  margin-left: -260px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+}
+
+.feedback-input {
+  color:#3c3c3c;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 0;
+  line-height: 22px;
+  background-color: #fbfbfb;
+  padding: 13px 13px 13px 54px;
+  margin-bottom: 10px;
+  width:100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 3px solid rgba(0,0,0,0);
+}
+
+.feedback-input:focus{
+  background: #fff;
+  box-shadow: 0;
+  border: 3px solid #3498db;
+  color: #3498db;
+  outline: none;
+  padding: 13px 13px 13px 54px;
+}
+
+.focused{
+  color:#30aed6;
+  border:#30aed6 solid 3px;
+}
+
+/* Icons ---------------------------------- */
+#name{
+  background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#name:focus{
+  background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+  background-size: 30px 30px;
+  background-position: 8px 5px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#email{
+  background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#email:focus{
+  background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#comment{
+  background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+  background-color:white;
+}
+
+#button-blue{
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  float:left;
+  width: 100%;
+  border: #fbfbfb solid 4px;
+  cursor:pointer;
+  background-color: #3498db;
+  color:white;
+  font-size:24px;
+  padding-top:22px;
+  padding-bottom:22px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+#button-blue:hover{
+  background-color: rgba(0,0,0,0);
+  color: #0493bd;
+}
+  
+.submit:hover {
+  color: #3498db;
+}
+  
+.ease {
+  width: 0px;
+  height: 74px;
+  background-color: #fbfbfb;
+  -webkit-transition: .3s ease;
+  -moz-transition: .3s ease;
+  -o-transition: .3s ease;
+  -ms-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.submit:hover .ease{
+  width:100%;
+  background-color:white;
+}
+
+@media only screen and (max-width: 580px) {
+  #form-div{
+    left: 3%;
+    margin-right: 3%;
+    width: 88%;
+    margin-left: 0;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+} 
+
+.desc
+{
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.myTable
+{
+  margin: 35px auto;
+  width: 50%;
+  border: 5px solid black;
+  border-radius: 10px;
+  
+} 
+
+.rowBtnContainer
+{
+  display: inline;
+  position: absolute;
+  left: -80px;
+  top: 30%;
+}
+
+.colBtnContainer
+{
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  left: 0;
+  top: -30px;
+  font-weight: normal;
+}
+
+.tblRow
+{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  border-bottom: 1px solid #111;
+  
+}
+
+.tblRow span
+{
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.tblRow:nth-child(even)
+{
+  background-color: #fff;
+}
+.tblRow:nth-child(odd):not(:first-child)
+{
+  background-color: #fff;
+}
+.rowHdr
+{
+  background-color: #000;
+  color: #fff;
+}
+
+.tblRow:last-child
+{
+  border-bottom: 0px;
+}
+
+.cell, .cellHdr
+{
+  margin: -2px;
+  padding: 10px;
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+   cursor: pointer;
+  box-shadow: inset 0 0 5px #111;
+  user-select: none;
+  
+}
+
+.cell
+{
+  /* display: table-cell; */
+  overflow: hidden;
+}
+.cellHdr
+{
+  padding: 20px;
+}
+
+.cell:last-child, .cellHdr:last-child
+{
+  border-right: 0px;  
+}
+.cellHdr
+{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.cell:hover
+{
+  
+}
+
+.highlighted
+{
+  box-shadow: inset 0 0 15px #111;
+  text-transform: uppercase;
+}
+
+.btnContainer
+{
+  width: 100%;
+  text-align: center;
+}
+
+.fontawesome-pencil
+{
+  color: navy;
+}
+.fontawesome-remove
+{
+  color: red;
+}

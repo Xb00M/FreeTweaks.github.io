@@ -1,0 +1,47 @@
+html{
+  background-size: cover;
+  height:100%;
+  background: rgb(30,30,40);
+}
+
+panel {
+    display: block;
+    width: 320px;
+     font-family: Helvetica, Arial;
+    -webkit-text-size-adjust: none;
+    -webkit-user-select: none;
+    margin: 0 auto;
+}
+
+fieldset {
+    display: block;
+    -webkit-margin-start: 2px;
+    -webkit-margin-end: 2px;
+    -webkit-padding-before: 0.35em;
+    -webkit-padding-start: 0.75em;
+    -webkit-padding-end: 0.75em;
+    -webkit-padding-after: 0.625em;
+    min-width: -webkit-min-content;
+    border-width: 2px;
+    border-style: groove;
+    border-color: threedface;
+    border-image: initial;
+}
+
+panel > fieldset {
+    background-color: #ffffff;
+    border: 1px solid #999999;
+    -moz-border-radius: 9px;
+    -webkit-border-radius: 9px;
+    box-shadow: 0 1px rgba(255, 255, 255, 0.75);
+    font-size: 16px;
+    margin: 9px;
+}
+
+fieldset {
+	text-align: center;
+}
+
+fieldset > a:not([type="ad"]), fieldset > div, fieldset > textarea {
+    padding: 12px 14px 10px 14px;
+}
